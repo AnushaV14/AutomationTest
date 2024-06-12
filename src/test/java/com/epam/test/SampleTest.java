@@ -14,5 +14,12 @@ public class SampleTest {
 		System.out.println("result is: "+c);
 		return c;
 	}
+	
+	public static int m2(int a, int b) {
+		int c = a-b;
+		System.out.println("a , b values are "+a +" ," + b);
+		System.out.println("result is: "+c);
+		return c;
+	}
 
 }
